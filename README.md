@@ -9,8 +9,25 @@ In this module challenge you will continue working on your portfolio website to 
 ## Objectives
 
 - describe the differences in fixed, fluid, adaptive, and responsive layouts
+
+in fixed layouts the units are set in px
+in fluid the units are set to percetages
+in adaptive, there are fixed widths established for containers to respond to. When X cut off point happens do Y with the layout
+responsive layouts start out at the widest screen and allow the user to change the behavior based on a gradually smaller and smaller screen size. By using the @media ('max-width: <variable>px
+
 - implement media queries in a project.
+
+use the following syntax to set the maximum width in descending order. Only change what you need using classes: 
+
+@media ('max-width: <variable>px) {
+    .classname {
+
+    }
+}
+
 - describe how using scalable units for font sizes impacts accessibility and why designing accessible web pages is important
+
+using scalable units for font size is important because you want the font to change sizes with the zoom factor on the site. This allows zoom to work with the text.
 
 ## Introduction
 
@@ -24,22 +41,22 @@ In this challenge you will refactor your personal portfolio code to make it resp
 
 New features of a project should occur in a new branch in the same repository. Follow these steps to set up and work on your project from yesterday:
 
-- [ ] `cd` into your personal portfolio folder
-- [ ] Create a new branch from `<firstName-lastName>`:
+- [ x] `cd` into your personal portfolio folder
+- [ x] Create a new branch from `<firstName-lastName>`:
 
 ```bash
 git checkout -b <firstName-lastName-day2> <firstName-lastName>.
 ```
 
-- [ ] Implement the project on your newly created `<firstName-lastName-day2>` branch, committing changes regularly.
+- [ x] Implement the project on your newly created `<firstName-lastName-day2>` branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName-day2>`.
 
 ### Task 2: Minimum Viable Product
 
 Use the checklist below to guide your work today. Your final product should be presentable at mobile, tablet and a desktop-width.
 
-- [ ] Insert a viewport meta tag into the head of the project with these html attributes: content="width=device-width, initial-scale=1"
-- [ ] Introduce max-width media queries into your project at 800px and 500px
+- [x] Insert a viewport meta tag into the head of the project with these html attributes: content="width=device-width, initial-scale=1"
+- [x] Introduce max-width media queries into your project at 800px and 500px
 - [ ] Add accessability features to your webpage
 - [ ] Design should closely follow the [mobile wireframe](Wireframes/) given for your chosen layout
 
