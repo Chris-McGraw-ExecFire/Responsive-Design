@@ -1,0 +1,246 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+
+* {
+    box-sizing: border-box;
+    border: 1px solid black;
+    max-width: 100%;
+    border: 1px solid black;
+    width: 100%;
+    text-decoration: none;
+}
+
+    html{
+        font-size: 62.5%;
+    }
+   
+    body{
+        font-size: 62.5%;
+        font-family: 'Trispace', sans-serif;
+        line-height: 1.5;
+
+    }
+    
+    a:hover{
+        color:rgb(18, 43, 18);
+    }
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: flex;
+}
+body {
+
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Start of the header section which includes title, navbar, h2 and the introduction text */
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/*  */
+
+    h1{
+        font-size: 200%;
+        text-align: center;
+
+
+}
+
+/* This is the start of the top nav bar */
+    nav{
+        width: 30%;
+        display: flex;
+        justify-content: space-around;
+        align-content: space-around;
+        align-items: center;
+        margin: 1% 0%;
+  
+    }
+
+            /* These are the top nav bar link */
+            nav a{
+                width: 18%;
+                background-color: rgb(226, 237, 248);
+                border-radius: 10px;
+                text-decoration: none;
+                color: black;
+                border: 1px solid white;
+                padding:0.5%;
+                font-size: 100%;
+                text-align: center;
+            }
+
+            /* This is the Home Button on the Nav Bar */
+            
+            nav .Home {
+                background-color: rgb(11, 44, 11);
+                color: white;
+            }
+
+    /* This is the sub-title */
+
+    h2{
+        text-align: center;
+        font-size: 150%;
+        margin: 1% 0%;
+    }
+
+    /* This is the subtext */
+    p{
+        width: 60%;
+        text-align: center;
+        padding: 0 10%;
+        margin: 1% 0%;
+
+    }
+
+
+    .MainBackgrnd{
+        background-image: url("https://picsum.photos/1200/300");
+        height: 15vh;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        margin: 0 0 5% 0;
+    }    
+
+    .Portfolio{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+
+    }
+        .Thumbnails{
+          display: flex;
+          justify-content: space-between;
+    }
+
+            img{
+                width: 18.5%;
+            }
+
+            .Thumbnails p{
+                vertical-align: middle;
+                width: 16%;
+                text-align: left;
+                padding: 15% 0%;
+
+    
+        }       
+         .Thumbnails p span{
+                    font-weight: bold;
+
+    }
+                .Thumbnails span.killingit {
+                color: crimson;
+                font-size: 150%;
+                text-justify: auto;
+
+}
+/* this is the beginning of the Footer section */
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        background-color: teal;
+        margin: 5% 0 0 0;
+        align-items: center;
+
+    }
+
+    a.contactButton {
+        margin: 2% 0;
+        width: 11%;
+
+
+    }
+ 
+/* this is for all the footer links and BUTTONS */
+    footer div{       
+            width: 33%;
+            text-align: center;
+            display: flex;
+            align-content: space-around;
+            align-items: center;
+            justify-content: space-around;
+            padding: 1%;
+        }
+    
+        
+    /* this is for the footer social medialinks */
+        footer a{      
+            text-align: center;
+            width: 10%;
+            font-size: 90%;
+            border-radius: 15%;
+            text-decoration: none;
+            background-color:lightblue;
+            color: black;
+            padding: 1%;
+        }
+
+
+
+/* This is this the start of the  */
+@media (max-width:1000){
+
+
+
+
+}
+
+
+/* Tablet view */
+@media (max-width:768){
+    
+}
+
+
+/* Phone view */
+@media (max-width:500){
+
+
+    
+}
